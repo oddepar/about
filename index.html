@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos de nous</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; }
+        .about-section { background-color: #4CAF50; padding: 50px; text-align: center; color: white; }
+        .container { padding: 20px; max-width: 1000px; margin: auto; }
+        .row { display: flex; flex-wrap: wrap; padding: 0 4px; }
+        .column { flex: 25%; max-width: 25%; padding: 0 4px; }
+        @media screen and (max-width: 600px) { .column { flex: 100%; max-width: 100%; } }
+        .card { box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); margin: 8px; }
+        .container-card { padding: 0 16px; }
+        .button { background-color: #333; color: white; padding: 10px; border: none; cursor: pointer; width: 100%; }
+        .button:hover { background-color: #555; }
+    </style>
+</head>
+<body>
+
+<div class="about-section">
+    <h1>À Propos de Nous</h1>
+    <p>Nous sommes une équipe passionnée par le développement web.</p>
+    <p>Nous créons des expériences numériques uniques.</p>
+</div>
+
+<div class="container">
+    <h2>Notre Équipe</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <div class="container-card">
+                    <h2>Jane Doe</h2>
+                    <p class="title">CEO & Fondateur</p>
+                    <p>Passionnée par l'innovation et le design.</p>
+                    <p>jane@example.com</p>
+                    <button class="button">Contact</button>
+                </div>
+            </div>
+        </div>
+        <!-- Ajoutez d'autres colonnes ici -->
+    </div>
+</div>
+
+</body>
+</html>
